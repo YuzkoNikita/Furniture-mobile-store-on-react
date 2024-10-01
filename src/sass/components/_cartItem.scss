@@ -1,0 +1,102 @@
+.cart-item {
+    display: flex;
+    align-items: start;
+    margin: 2rem 0;
+    column-gap: 1rem;
+    .cart-item-label {
+        display: flex;
+        align-items: start;
+        column-gap: .6rem;
+        img {
+            width: 62px;
+            height: 62px;
+            border-radius: .6rem;
+        }
+        .label-wrapper {
+            display: flex;
+            position: relative;
+            align-items: center;
+            cursor: pointer;
+            width: 24px;
+            height: 24px;
+            column-gap: .3rem;
+            background-color: transparent; /* Золотой цвет */
+            border-radius: .4rem;
+            border: 1px solid #000;
+        }
+        .label-wrapper input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            background-color: #c0a96d; /* Золотой цвет */
+        }
+        .label-wrapper input[type="checkbox"]:checked + .checkmark {
+            background-color: #c0a96d; /* Золотой цвет после активации */
+            border-color: transparent;
+            border-radius: .35rem;
+            border: none;
+        }
+
+        .label-wrapper input[type="checkbox"]:checked + .checkmark:after {
+            content: '';
+            position: absolute;
+            left: 6px;
+            top: 1px;
+            width: 8px;
+            height: 14px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+        .checkmark {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        }
+    }
+    .item-info {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        h3 {
+            color: var(--black-color);
+        }
+        div {
+            display: grid;
+            row-gap: .8rem;
+        }
+        .quantity-control {
+            position: absolute;
+            content: "";
+            left: 8rem;
+            top: 2rem;
+            background-color: #fff;
+            border: 2px solid var(--border-color);
+            border-radius: .3rem;
+            display: flex;
+            column-gap: 1.2rem;
+            span {
+                align-items: center;
+                display: flex;
+            }
+            button {
+                background-color: var(--body-color);
+                border: 2px solid var(--border-color);
+                padding: .3rem .6rem;
+                cursor: pointer;
+                &:first-child {
+                    border-radius: .3rem 0 0 .3rem;
+                    border-top: none;
+                    border-left: none;
+                    border-bottom: none;
+                }
+                &:last-child {
+                    border-radius: 0 .3rem .3rem 0;
+                    border-top: none;
+                    border-right: none;
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.relatedproducts {
+    .relatedproducts-item {
+        display: grid;
+        grid-auto-flow: column; 
+        grid-gap: 2rem; 
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+}

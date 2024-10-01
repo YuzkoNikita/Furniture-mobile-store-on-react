@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "imageSrc": "../src/assets/chair1.png",
+        "imageInCart": "../src/assets/chair1-inCart.png",
+        "title": "ONYX WOOD CHAIR",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4990,
+        "delivery": "Free",
+        "rating": 4.7,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair1-1.png",
+            "img2": "../src/assets/chair1-2.png"
+        },
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "imageSrc": "../src/assets/chair2.png",
+        "imageInCart": "../src/assets/chair2-inCart.png",
+        "title": "PAOLA WOOD CHAIR",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4699,
+        "delivery": "Free",
+        "rating": 4.9,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair2.png",
+            "img2": "../src/assets/chair2.png"
+        },
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "imageSrc": "../src/assets/chair3.png",
+        "imageInCart": "../src/assets/chair3.png",
+        "title": "NATIVE IRON CHAIR",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4990,
+        "delivery": "Free",
+        "rating": 4.3,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair3.png",
+            "img2": "../src/assets/chair3.png"
+        },
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "imageSrc": "../src/assets/chair4.png",
+        "imageInCart": "../src/assets/chair4-inCart.png",
+        "title": "Onyx wood chair",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4699,
+        "delivery": "Free",
+        "rating": 4.6,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair4.png",
+            "img2": "../src/assets/chair4.png"
+        },
+        "quantity": 1
+    },    
+    {
+        "id": 5,
+        "imageSrc": "../src/assets/chair1.png",
+        "imageInCart": "../src/assets/chair1-inCart.png",
+        "title": "ONYX WOOD CHAIR",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4990,
+        "delivery": "Free",
+        "rating": 4.7,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair1-1.png",
+            "img2": "../src/assets/chair1.png"
+        },
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "imageSrc": "../src/assets/chair2.png",
+        "imageInCart": "../src/assets/chair2-inCart.png",
+        "title": "PAOLA WOOD CHAIR",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4699,
+        "delivery": "Free",
+        "rating": 4.9,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair2.png",
+            "img2": "../src/assets/chair2.png"
+        },
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "imageSrc": "../src/assets/chair3.png",
+        "imageInCart": "../src/assets/chair3.png",
+        "title": "NATIVE IRON CHAIR",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4990,
+        "delivery": "Free",
+        "rating": 4.3,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair3.png",
+            "img2": "../src/assets/chair3.png"
+        },
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "imageSrc": "../src/assets/chair4.png",
+        "imageInCart": "../src/assets/chair4-inCart.png",
+        "title": "Onyx wood chair",
+        "category": "ON-CHAIR",
+        "description": "Refinement Chair with Ripped Seat, made of retro Eucalyptus wood, of great resistance, Kiln dried, made with a spike system and painted with P.U. (Polyurethane)",
+        "price": 4699,
+        "delivery": "Free",
+        "rating": 4.6,
+        "size": {
+            "height": 100, 
+            "width": 42,
+            "weight": 12
+        },
+        "catalogImg": {
+            "img1": "../src/assets/chair4.png",
+            "img2": "../src/assets/chair4.png"
+        },
+        "quantity": 1
+    }
+]

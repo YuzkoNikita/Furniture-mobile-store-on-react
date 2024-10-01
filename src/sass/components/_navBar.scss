@@ -1,0 +1,33 @@
+.nav {
+    z-index: 100;
+    position: sticdky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding-top: 4.5rem;
+    div {
+        display: flex;
+        text-align: start;
+        h2 {
+            color: var(--black-color);
+            font-size: var(--big-font-size);
+            cursor: pointer;
+        }
+    }
+    h2 {
+        color: var(--black-color);
+        font-size: var(--h2-font-size);
+    }
+    span {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        :nth-child(2) {
+            margin-left: 2rem;
+        }
+    }
+}

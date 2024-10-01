@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+:root {
+  --base-color: #645832;
+  --base-color-light: #AE9D66;
+  --border-color: #645832;
+  --body-color: #ebe6d7;
+  --white-color: #EBE6D7;
+  --black-color: #333333;
+  --text-color: #645832;
+  --text-color-gray: #A6A49D;
+
+  --body-font: "Lora", system-ui;
+  --h1-font-size: 3rem;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.75rem;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.phone {
+  position: relative;
+  background-color: var(--body-color);
+  width: 390px;
+  height: 844px;
+  overflow-y: scroll;
+  border: 1px solid #000;
+  border-radius: 1.5rem;
+  margin: 0px auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: #000;
+  color: var(--text-color);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4 {
+  color: var(--white-color);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 390px;
+  padding: 10px 25px;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+.button-main {
+  background-color: var(--base-color);
+  border: 1px solid var(--border-color);
+  color: var(--white-color);
+  font-size: 1rem;
+  padding: .5rem 2.2rem;
+  border-radius: 1.75rem;
+}
+
+.button-alternative {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  padding: .5rem 2.2rem;
+  border-radius: 1.75rem;
+}
+
+.catalog_name {
+  font-size: var(--h3-font-size);
+  color: var(--black-color);
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.catalog_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
